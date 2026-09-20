@@ -1,0 +1,4 @@
+model,pearson_r_topo_vs_degradation
+AdaptiveGNN,-0.8926975790436865
+BaselineGCN,-0.9775973454169705
+TopologyAwareAGNN,-0.9355155808681237

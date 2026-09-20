@@ -1,0 +1,155 @@
+{
+  "seen_metrics": [
+    {
+      "model": "AdaptiveGNN",
+      "MAE": 101.21007616621543,
+      "RMSE": 126.9136938846451,
+      "MAPE": 22.093701695690616
+    },
+    {
+      "model": "BaselineGCN",
+      "MAE": 98.07518883513444,
+      "RMSE": 123.38043509074133,
+      "MAPE": 21.87375988350656
+    },
+    {
+      "model": "TopologyAwareAGNN",
+      "MAE": 99.38519468150932,
+      "RMSE": 124.7916271575544,
+      "MAPE": 21.65043577825927
+    }
+  ],
+  "degradation": [
+    {
+      "model": "AdaptiveGNN",
+      "test_zone": "ElectronicCity",
+      "MAE": 77.47521494838772,
+      "RMSE": 97.00127052657338,
+      "MAPE": 22.270064430043906,
+      "seen_MAE": 101.21007616621543,
+      "seen_RMSE": 126.9136938846451,
+      "seen_MAPE": 22.093701695690616,
+      "MAE_degradation_pct": -23.451085224803496,
+      "RMSE_degradation_pct": -23.569106250472736,
+      "topo_distance_from_train": 5.165179757365713
+    },
+    {
+      "model": "AdaptiveGNN",
+      "test_zone": "Whitefield",
+      "MAE": 79.694049462285,
+      "RMSE": 100.11531755435219,
+      "MAPE": 21.15923697133518,
+      "seen_MAE": 101.21007616621543,
+      "seen_RMSE": 126.9136938846451,
+      "seen_MAPE": 22.093701695690616,
+      "MAE_degradation_pct": -21.25877928260331,
+      "RMSE_degradation_pct": -21.115433260220602,
+      "topo_distance_from_train": 4.379831464877555
+    },
+    {
+      "model": "AdaptiveGNN",
+      "test_zone": "Yelahanka",
+      "MAE": 66.6412087477024,
+      "RMSE": 83.84357610965074,
+      "MAPE": 20.981585877682324,
+      "seen_MAE": 101.21007616621543,
+      "seen_RMSE": 126.9136938846451,
+      "seen_MAPE": 22.093701695690616,
+      "MAE_degradation_pct": -34.15555913794712,
+      "RMSE_degradation_pct": -33.936541011990265,
+      "topo_distance_from_train": 5.711182549049869
+    },
+    {
+      "model": "BaselineGCN",
+      "test_zone": "ElectronicCity",
+      "MAE": 75.79136908823482,
+      "RMSE": 94.81109964454883,
+      "MAPE": 22.460428132529945,
+      "seen_MAE": 98.07518883513444,
+      "seen_RMSE": 123.38043509074133,
+      "seen_MAPE": 21.87375988350656,
+      "MAE_degradation_pct": -22.721159155103937,
+      "RMSE_degradation_pct": -23.155482816364607,
+      "topo_distance_from_train": 5.165179757365713
+    },
+    {
+      "model": "BaselineGCN",
+      "test_zone": "Whitefield",
+      "MAE": 79.35852888681029,
+      "RMSE": 99.5731063487319,
+      "MAPE": 21.687559272235262,
+      "seen_MAE": 98.07518883513444,
+      "seen_RMSE": 123.38043509074133,
+      "seen_MAPE": 21.87375988350656,
+      "MAE_degradation_pct": -19.08399073264807,
+      "RMSE_degradation_pct": -19.295870309178355,
+      "topo_distance_from_train": 4.379831464877555
+    },
+    {
+      "model": "BaselineGCN",
+      "test_zone": "Yelahanka",
+      "MAE": 70.56240409220166,
+      "RMSE": 88.29960176174453,
+      "MAPE": 22.920001896611332,
+      "seen_MAE": 98.07518883513444,
+      "seen_RMSE": 123.38043509074133,
+      "seen_MAPE": 21.87375988350656,
+      "MAE_degradation_pct": -28.05274715216924,
+      "RMSE_degradation_pct": -28.433060155118,
+      "topo_distance_from_train": 5.711182549049869
+    },
+    {
+      "model": "TopologyAwareAGNN",
+      "test_zone": "ElectronicCity",
+      "MAE": 74.14301213309872,
+      "RMSE": 92.99093599448373,
+      "MAPE": 21.38749811675848,
+      "seen_MAE": 99.38519468150932,
+      "seen_RMSE": 124.7916271575544,
+      "seen_MAPE": 21.65043577825927,
+      "MAE_degradation_pct": -25.398332849577766,
+      "RMSE_degradation_pct": -25.483032706129414,
+      "topo_distance_from_train": 5.165179757365713
+    },
+    {
+      "model": "TopologyAwareAGNN",
+      "test_zone": "Whitefield",
+      "MAE": 77.38456130862225,
+      "RMSE": 97.35617030811713,
+      "MAPE": 20.57922357631542,
+      "seen_MAE": 99.38519468150932,
+      "seen_RMSE": 124.7916271575544,
+      "seen_MAPE": 21.65043577825927,
+      "MAE_degradation_pct": -22.136731173481618,
+      "RMSE_degradation_pct": -21.985014118614636,
+      "topo_distance_from_train": 4.379831464877555
+    },
+    {
+      "model": "TopologyAwareAGNN",
+      "test_zone": "Yelahanka",
+      "MAE": 65.45788704607445,
+      "RMSE": 82.10824133798113,
+      "MAPE": 20.838142696510207,
+      "seen_MAE": 99.38519468150932,
+      "seen_RMSE": 124.7916271575544,
+      "seen_MAPE": 21.65043577825927,
+      "MAE_degradation_pct": -34.13718486355903,
+      "RMSE_degradation_pct": -34.203725675989304,
+      "topo_distance_from_train": 5.711182549049869
+    }
+  ],
+  "correlation": [
+    {
+      "model": "AdaptiveGNN",
+      "pearson_r_topo_vs_degradation": -0.8926975790436865
+    },
+    {
+      "model": "BaselineGCN",
+      "pearson_r_topo_vs_degradation": -0.9775973454169705
+    },
+    {
+      "model": "TopologyAwareAGNN",
+      "pearson_r_topo_vs_degradation": -0.9355155808681237
+    }
+  ]
+}
